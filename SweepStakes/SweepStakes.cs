@@ -9,9 +9,9 @@ namespace SweepStakes
     public  class SweepStakes
     {
         Dictionary<int, Contestant> contestants = new Dictionary<int, Contestant>();
-        string sweepStakesname;
-        string Name;
-        int key;
+        string sweepStakesName;
+        string Name;       
+        int registration;
         int winner;
         
         public SweepStakes()
@@ -21,28 +21,32 @@ namespace SweepStakes
         }
         public void SweepStake(string name)
         {
-            //Console.WriteLine("Please choose a name for your Sweep Stakes? ");
-            //sweepStakesname = Console.ReadLine();
+            Console.WriteLine("Please choose a name for your Sweep Stakes? ");
+            sweepStakesName = Console.ReadLine();
         }
         public void RegisterContestant(Contestant contestant)
         {
-            //How Many contestants?
-            //contestants count++
-            //for (int i = 0; i < count; i++)
-            //{
+            int count;
+            Console.WriteLine("Enter number of contestants");
+            count = int.Parse(Console.ReadLine());
+            for (int i = 0; i < count; i++)
+            {
+                registration = contestants.Count + 1;
+                contestant.registration = registration;
+                contestants.Add(registration, contestant);
+            }
 
-            //}
-             
-           
+
         }
         public void PickWinner() 
         {
-            //Random random = new random()
-           // contestant.name
+            Random random = new Random();
+            winner = random.Next(1, contestants.Count);
+            Console.WriteLine(winner);
         }
         public void PrintContestantInfo(Contestant contestant)
         {
-            //contestant.name 
+            Console.WriteLine(winner);
         }
         
 
