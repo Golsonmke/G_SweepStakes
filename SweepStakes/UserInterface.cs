@@ -12,5 +12,15 @@ namespace SweepStakes
         {
 
         }
+        public void CreateContestant(Contestant contestant)
+        {
+            Console.WriteLine("What is Your first name?  ");
+            contestant.firstName = Console.ReadLine();
+            Console.WriteLine("What is your last name? ");
+            contestant.lastName = Console.ReadLine();
+            Console.WriteLine("What is your email? ");
+            contestant.email = Console.ReadLine();
+
+        }
     }
 }

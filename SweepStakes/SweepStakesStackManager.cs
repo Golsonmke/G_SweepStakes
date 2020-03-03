@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    class SweepStakesStackManager
+    class SweepStakesStackManager : ISweepStakesmanager
     {
+        public SweepStakesStackManager()
+        {
+            //Stack data Structure
+        }
     }
 }

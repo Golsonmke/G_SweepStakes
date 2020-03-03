@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    class MarketingFirm
+    public class MarketingFirm
     {
+        //dependancy injection 
+        public MarketingFirm()
+        {
+
+        }
+        public void CreateSweepStakes()
+        {
+
+        }
     }
+    
+
 }

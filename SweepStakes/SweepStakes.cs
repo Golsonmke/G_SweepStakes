@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    public  class Sweep_Stakes : IDictionary
+    public  class Sweep_Stakes 
     {
         public Sweep_Stakes()
         {

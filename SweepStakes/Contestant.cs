@@ -8,16 +8,16 @@ namespace SweepStakes
 {
     public class Contestant
     {
-        
         public Contestant()
         {
-            string firstName;
-            string lasrName;
-            string email;
-            int registration;
-
-
 
         }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string email { get; set; }
+        public int registration { get; set; }
+
+        
+       
     }
 }
