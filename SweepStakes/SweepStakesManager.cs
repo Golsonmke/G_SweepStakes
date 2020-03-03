@@ -8,18 +8,10 @@ namespace SweepStakes
 {
     public interface ISweepStakesManager 
     {
-        public SweepStakesManager()
-        {
 
-        }
-        public void InsertSweepStakes(SweepStakes sweepStakes)
-        {
-            
+         void InsertSweepStakes(SweepStakes sweepStakes);
 
-        }
-        public void GetSweepStakes()
-        {
-
-        }
+         SweepStakes GetSweepStakes();
+       
     }
 }
