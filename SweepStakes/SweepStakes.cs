@@ -6,27 +6,43 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    public  class Sweep_Stakes 
+    public  class SweepStakes
     {
-        public Sweep_Stakes()
+        Dictionary<int, Contestant> contestants = new Dictionary<int, Contestant>();
+        string sweepStakesname;
+        string Name;
+        int key;
+        int winner;
+        
+        public SweepStakes()
         {
+
 
         }
-        public void SweepStakes(string name)
+        public void SweepStake(string name)
         {
-
+            //Console.WriteLine("Please choose a name for your Sweep Stakes? ");
+            //sweepStakesname = Console.ReadLine();
         }
         public void RegisterContestant(Contestant contestant)
         {
+            //How Many contestants?
+            //contestants count++
+            //for (int i = 0; i < count; i++)
+            //{
 
+            //}
+             
+           
         }
-        public void PickWinner()
+        public void PickWinner() 
         {
-
+            //Random random = new random()
+           // contestant.name
         }
         public void PrintContestantInfo(Contestant contestant)
         {
-
+            //contestant.name 
         }
         
 

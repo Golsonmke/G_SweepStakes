@@ -8,9 +8,20 @@ namespace SweepStakes
 {
     class SweepStakesStackManager : ISweepStakesmanager
     {
+        //Stack data Structure
+        Stack<SweepStakes> stack;
+
         public SweepStakesStackManager()
         {
-            //Stack data Structure
+
+        }
+        public void InsertSweepStakes(SweepStakes sweepStakes)
+        {
+            
+        }
+        public void GetSweepStakes()
+        {
+
         }
     }
 }
